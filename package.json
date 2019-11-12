@@ -1,16 +1,15 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "Git and NPM",
+  "description": "Git and Node",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FrostyDesigner/git-test.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
